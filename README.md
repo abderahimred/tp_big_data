@@ -14,6 +14,8 @@
 
 - [Overview](#-overview)
 - [Features](#-features)
+- [Installation](#-installation)
+- [Usage](#-usage)
 - [Datasets](#-datasets)
 - [Results Overview](#-results-overview)
 - [Key Findings](#-key-findings)
@@ -65,6 +67,71 @@ This project presents a **comprehensive comparative analysis** of K-Means cluste
 - **Automatic result export** to CSV
 
 ---
+## 🚀 Installation
+
+### Prerequisites
+
+- Python 3.12+ (tested on Python 3.13)
+- Jupyter Notebook or JupyterLab
+- At least 8GB RAM (16GB recommended for large dataset)
+
+### Step 1: Clone the Repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/tp_big_data.git
+cd tp_big_data
+```
+
+### Step 2: Create Virtual Environment (Recommended)
+
+```bash
+# Using venv
+python -m venv venv
+
+# Activate on macOS/Linux
+source venv/bin/activate
+
+# Activate on Windows
+venv\Scripts\activate
+```
+
+### Step 3: Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+Or manually install:
+
+```bash
+pip install pyspark scikit-learn matplotlib seaborn pandas numpy psutil ipywidgets jupyter
+```
+
+### Step 4: Enable Jupyter Widgets (for interactive features)
+
+```bash
+jupyter nbextension enable --py widgetsnbextension
+```
+
+---
+
+## 📖 Usage
+
+### Quick Start
+
+1. **Launch Jupyter Notebook:**
+
+```bash
+jupyter notebook
+```
+
+2. **Open the notebook:**
+   - Navigate to `tp_big_data.ipynb`
+   - Click to open
+
+3. **Run all cells:**
+   - Menu: `Kernel` → `Restart & Run All`
+   - Or use keyboard shortcut: `Shift + Enter` for each cell
 
 
 ### Execution Time
@@ -198,8 +265,6 @@ Both frameworks produce **comparable clustering quality**:
 
 <div align="center">
 
-
-Made with ❤️ for Big Data Analytics
 
 [⬆ Back to Top](#-big-data-clustering-comparative-analysis)
 
