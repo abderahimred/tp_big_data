@@ -78,7 +78,7 @@ This project presents a **comprehensive comparative analysis** of K-Means cluste
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/tp_big_data.git
+git clone https://github.com/abderahimred/tp_big_data.git
 cd tp_big_data
 ```
 
